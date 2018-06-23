@@ -8,17 +8,45 @@
     <link rel="stylesheet" href="index.css"></link>
 </head>
 <body>
-    <div class="content">
-        <div class="button">A</div>
-        <div class="button">S</div>
-        <div class="button">D</div>
-        <div class="button">F</div>
-        <div class="button">G</div>
-        <div class="button">H</div>
-        <div class="button">J</div>
-        <div class="button">K</div>
-        <div class="button">L</div>
+    <div class="buttons">
+        <div class="button" data-key="65">
+            A
+            <span>Do</span>    
+        </div>
+        <div class="button" data-key="83">
+            S
+            <span>Re</span>    
+        </div>
+        <div class="button" data-key="68">
+            D
+            <span>Mi</span>    
+        </div>
+        <div class="button" data-key="70">
+            F
+            <span>Fa</span>    
+        </div>
+        <div class="button" data-key="71">
+            G
+            <span>Sol</span>    
+        </div>
+        <div class="button" data-key="72">
+            H
+            <span>La</span>    
+        </div>
+        <div class="button" data-key="74">
+            J
+            <span>Si</span>    
+        </div>
     </div>
+
+    <audio data-key="65" src="sound\c.wav"></audio>
+    <audio data-key="83" src="sound\d.wav"></audio>
+    <audio data-key="68" src="sound\e.wav"></audio>
+    <audio data-key="70" src="sound\f.wav"></audio>
+    <audio data-key="71" src="sound\g.wav"></audio>
+    <audio data-key="72" src="sound\a.wav"></audio>
+    <audio data-key="74" src="sound\b.wav"></audio>
+
     <script src="index.js"></script>
 </body>
 </html>
